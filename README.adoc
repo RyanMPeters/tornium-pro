@@ -1,17 +1,22 @@
 = Tornium
 
-A third party, general-purpose website and Discord bot dedicated to simplifying the playing of https://www.torn.com[Torn City].
+A third party, integrated informational website with Discord bot functionality, dedicated to simplifying the playing of https://www.torn.com[Torn City]. Developed and maintained by tiksan.
 
-== Features
-- Faction banking
-- OD detection
-- Discord-based retaliation notifications
-- Discord-based OC ready and delay notifications
-- Discord-based stakeouts
-- Discord-based user verification
-- Discord-based stock verification
-- Stat database
-- Chain list generator
+== Tornium Features
+- Faction banking with real time faction balance and a system to ping faction bankers for withdrawl requests.
+- OD detection notifications
+- Stat database with ability to query based on stat range
+- Chain list generator, with query for "fair fight" ratio adjustment
+
+== Tornium Discord Bot Features (via discord command)
+- Retaliation notifications
+- Organized crimes (OCs) ready notifications and delayed notifications including the who and why reasoning for the delay
+- Stakeout functionality
+- Faction vault balance check
+- Faction banking withdrawls, and the ability to cancel banking requests
+- Ability to see which faction members are online/offline/hospital/or inactive for a variable amount of days (I.E 2+ days)
+- User verification with functionality to match users/nicknames to thier torn profiles and ID's
+- Discord-based stock verification and notifications
 
 == Installation
 Not yet supported.
